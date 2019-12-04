@@ -2,41 +2,44 @@
 
 // Modulo 289
 float4 mod289(float4 x) {
-  //return x - floor(x * (1.0 / 289.0)) * 289.0;
-  return fmod(x, 289.0);
+  return x - floor(x * (1.0 / 289.0)) * 289.0;
+  //return fmod(x, 289.0);
 }
 
 float3 mod289(float3 x) {
-  //return x - floor(x * (1.0 / 289.0)) * 289.0;
-  return fmod(x, 289.0);
+  return x - floor(x * (1.0 / 289.0)) * 289.0;
+  //return fmod(x, 289.0);
 }
 
 float2 mod289(float2 x) {
-  //return x - floor(x * (1.0 / 289.0)) * 289.0;
-  return fmod(x, 289.0);
+  return x - floor(x * (1.0 / 289.0)) * 289.0;
+  //return fmod(x, 289.0);
 }
 
 float mod289(float x) {
-  return fmod(x, 289.0);
+  return x - floor(x * (1.0 / 289.0)) * 289.0;
+  //return fmod(x, 289.0);
 }
 
 // Modulo 7 without a division
 float4 mod7(float4 x) {
-  //return x - floor(x * (1.0 / 7.0)) * 7.0;
-  return fmod(x, 7.0);
+  return x - floor(x * (1.0 / 7.0)) * 7.0;
+  //return fmod(x, 7.0);
 }
 
 float3 mod7(float3 x) {
-  //return x - floor(x * (1.0 / 7.0)) * 7.0;
-  return fmod(x, 7.0);
+  return x - floor(x * (1.0 / 7.0)) * 7.0;
+  //return fmod(x, 7.0);
 }
 
 float2 mod7(float2 x) {
-  return fmod(x, 7.0);
+  return x - floor(x * (1.0 / 7.0)) * 7.0;
+  //return fmod(x, 7.0);
 }
 
 float mod7(float x) {
-  return fmod(x, 7.0);
+  return x - floor(x * (1.0 / 7.0)) * 7.0;
+  //return fmod(x, 7.0);
 }
 
 // Permutation polynomial: (34x^2 + x) mod 289
