@@ -1,10 +1,10 @@
 Custom Dither
 
-![Custom Dither](custom dither.png)
+![Custom Dither](custom-dither.png)
 
 Génère un motif de tramage depuis une valeur d'entrée.
 
-| ![Custom Dither Sample](custom dither sample.png) |
+| ![Custom Dither Sample](custom-dither-sample.png) |
 | ------------------------------------------------- |
 | haut: valeur d'entrée, bas: motif de tramage      |
 
